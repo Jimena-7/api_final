@@ -1,6 +1,6 @@
 package com.example.Api_final.Repository;
 
-import com.example.Api_final.entity.Destino;
+import com.example.Api_final.dominio.entity.Destino;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

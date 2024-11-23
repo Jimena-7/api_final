@@ -1,6 +1,6 @@
 package com.example.Api_final.controller;
 
-import com.example.Api_final.entity.Destino;
+import com.example.Api_final.dominio.entity.Destino;
 import com.example.Api_final.servico.DestinoServico;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -87,14 +87,8 @@ public class DestinoController {
                         new ResponseEntity<>(HttpStatus.NOT_FOUND));
     }
 
-    //public void setDestinoServico(DestinoServico destinoServico) {
-        //this.destinoServico = destinoServico;
-   //}
 
-    // public void setDestinoServico(DestinoServico destinoServico) {
-       // this.destinoServico = destinoServico;//
-    }//
-
+    }
 
 
 

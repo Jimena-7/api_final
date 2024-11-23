@@ -1,12 +1,11 @@
 package com.example.Api_final.servico;
 
 import com.example.Api_final.Repository.DestinoRepository;
-import com.example.Api_final.entity.Destino;
+import com.example.Api_final.dominio.entity.Destino;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 

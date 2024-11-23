@@ -1,4 +1,4 @@
-package com.example.Api_final.entity;
+package com.example.Api_final.dominio.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
