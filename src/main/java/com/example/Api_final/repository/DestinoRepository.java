@@ -1,4 +1,4 @@
-package com.example.Api_final.Repository;
+package com.example.Api_final.repository;
 
 import com.example.Api_final.dominio.entity.Destino;
 import org.springframework.data.jpa.repository.JpaRepository;
