@@ -13,10 +13,6 @@ public class UsuarioEntity {
     private String password;
     private String role;
 
-    //@ElementCollection(fetch = FetchType.EAGER)
-    //@CollectionTable(name = "usuario_roles", joinColumns = @JoinColumn(name = "usuario_id"))
-    //@Column(name = "role")
-   // private Set<String> roles;
 
     public Long getId() {
         return id;
@@ -36,12 +32,6 @@ public class UsuarioEntity {
     public void setPassword(String password) {
         this.password = password;
     }
-    //public Set<String> getRoles() {
-        //return roles;
-    //}
-    //public void setRoles(Set<String> roles) {
-        //this.roles = roles;
-    //}
 
     public String getRole() {
         return role;
